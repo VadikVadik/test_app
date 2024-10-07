@@ -1,0 +1,48 @@
+<h1>Create new user</h1>
+
+<form action="/users" method="post">
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+
+  <p>
+    <label for="user-name">Name:</label>
+    <input type="text" name="user[name]" id="user-name">
+  </p>
+  <p>
+    <label for="user-surname">Surname:</label>
+    <input type="text" name="user[surname]" id="user-surname">
+  </p>
+  <p>
+    <label for="user-patronymic">Patronymic:</label>
+    <input type="text" name="user[patronymic]" id="user-patronymic">
+  </p>
+  <p>
+    <label for="user-age">Age:</label>
+    <input type="text" name="user[age]" id="user-age">
+  </p>
+  <p>
+    <label for="user-email">Email:</label>
+    <input type="text" name="user[email]" id="user-email">
+  </p>
+  <p>
+    <label for="user-nationality">Nationality:</label>
+    <input type="text" name="user[nationality]" id="user-nationality">
+  </p>
+  <p>
+    <label for="user-country">Country:</label>
+    <input type="text" name="user[country]" id="user-country">
+  </p>
+  <p>
+    <label for="user-gender">Gender:</label>
+    <input type="text" name="user[gender]" id="user-gender">
+  </p>
+  <p>
+    <label for="user-skills">Skills:</label>
+    <input type="text" name="user[skills]" id="user-skills">
+  </p>
+  <p>
+    <label for="user-interests">Interests:</label>
+    <input type="text" name="user[interests]" id="user-interests">
+  </p>
+
+  <input type="submit" value="Create">
+</form>
