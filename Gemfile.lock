@@ -45,9 +45,9 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    active_interaction (5.3.0)
-      activemodel (>= 5.2, < 8)
-      activesupport (>= 5.2, < 8)
+    active_interaction (5.4.0)
+      activemodel (>= 5.2, < 9)
+      activesupport (>= 5.2, < 9)
     activejob (7.2.1)
       activesupport (= 7.2.1)
       globalid (>= 0.3.6)
@@ -135,7 +135,7 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.5)
     mini_portile2 (2.8.7)
-    minitest (5.25.1)
+    minitest (5.25.2)
     msgpack (1.7.3)
     net-imap (0.4.16)
       date
@@ -258,7 +258,7 @@ GEM
       rubocop-rails
     ruby-progressbar (1.13.0)
     rubyzip (2.3.2)
-    securerandom (0.3.1)
+    securerandom (0.3.2)
     selenium-webdriver (4.25.0)
       base64 (~> 0.2)
       logger (~> 1.4)
@@ -312,7 +312,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  active_interaction (~> 5.3)
+  active_interaction (~> 5.4)
   bootsnap
   brakeman
   capybara
